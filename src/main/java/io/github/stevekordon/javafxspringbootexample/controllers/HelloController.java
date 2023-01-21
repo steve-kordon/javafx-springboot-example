@@ -35,6 +35,7 @@ public class HelloController
 	@FXML
 	protected void onHelloButtonClick()
 	{
+		// Set the welcome text from the hello service
 		welcomeText.setText(helloService.getWelcomeText());
 	}
 }

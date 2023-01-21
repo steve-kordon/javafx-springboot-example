@@ -11,6 +11,11 @@ import org.springframework.stereotype.Service;
 public class HelloService
 {
 	/**
+	 * The welcome text.
+	 */
+	private static final String WELCOME_TEXT = "Welcome to an example of a JavaFX Application with Spring Boot!";
+
+	/**
 	 * Simple method to prove loading
 	 * the service worked.
 	 *
@@ -18,6 +23,6 @@ public class HelloService
 	 */
 	public String getWelcomeText()
 	{
-		return "Welcome to an example of a JavaFX Application with Spring Boot!";
+		return WELCOME_TEXT;
 	}
 }
